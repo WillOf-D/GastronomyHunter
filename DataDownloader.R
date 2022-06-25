@@ -1,4 +1,3 @@
-
 # Create API Database MongoDB
 
 library(mongolite)
@@ -14,14 +13,10 @@ connection_string <- paste(
 
 
 # Ambil Data Twitter
-library(wordcloud)
-library(SnowballC)
 library(rtweet)
 library(tm)
-library(RColorBrewer)
 library(tidytext)
 library(dplyr)
-library(wordcloud2)
 library(stringr)
 
 
@@ -104,7 +99,6 @@ m <- as.matrix(dtm)
 v <- sort(rowSums(m),decreasing=TRUE)
 d <- data.frame(word = names(v),freq=v)
 d <- head(d, 1000)
-head(d, 10)
 
 entry_name <- paste(
   sep = "_",
