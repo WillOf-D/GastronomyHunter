@@ -1,3 +1,6 @@
+
+
+
 # Create API Database MongoDB
 
 library(mongolite)
@@ -61,6 +64,7 @@ status_details <- as.character(status_details)
 # Latest Chart
 library(ggplot2)
 library(ggwordcloud)
+library(RColorBrewer)
 pic <- ggwordcloud(words = d$word, freq = d$freq, min.freq = 111,
           max.words=99, random.order=FALSE, rot.per=0.45, 
           colors=brewer.pal(8, "Dark2"))
