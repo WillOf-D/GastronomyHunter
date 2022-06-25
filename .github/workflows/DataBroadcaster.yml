@@ -42,5 +42,7 @@ jobs:
         run: Rscript -e 'install.packages("ggplot2", dependencies = TRUE)'
       - name: Install ggwordcloud package
         run: Rscript -e 'install.packages("ggwordcloud", dependencies = TRUE)'
+      - name: Install RColorBrewer package
+        run: Rscript -e 'install.packages("RColorBrewer", dependencies = TRUE)'
       - name: Run The R Script
         run: Rscript DataBroadcaster.R
