@@ -9,8 +9,9 @@
 name: DataBroadcasting
 
 on:
-  schedule:
-  -  cron: '*/30 * * * *'  # At every 30th minute.
+  workflow_dispatch
+  #schedule:
+  #-  cron: '*/30 * * * *'  # At every 30th minute.
 
 permissions:
   contents: read
