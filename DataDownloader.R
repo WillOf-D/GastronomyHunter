@@ -89,7 +89,9 @@ docs <- tm_map(docs, removeWords,
                   "make", 
                   "blogger", 
                   "new", 
-                  "now"
+                  "now",
+                  "ing",
+                  "'s"
               )
 )
 
