@@ -11,7 +11,7 @@ name: DataBroadcasting
 on:
   #workflow_dispatch
   schedule:
-  -  cron: '20  * * * *'  # At every 20th minute.
+  -  cron: '0 */6 * * *'  # At every 6th hour.
 
 permissions:
   contents: read
