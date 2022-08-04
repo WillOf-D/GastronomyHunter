@@ -11,7 +11,7 @@ name: DataDownloading
 on:
   #workflow_dispatch
   schedule:
-  -  cron: '0 */6 * * *'  # At every 6th hour.
+  -  cron: '0 5 * * *'  # At every 6th hour.
 
 permissions:
   contents: read
