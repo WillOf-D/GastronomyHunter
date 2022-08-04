@@ -70,7 +70,7 @@ pic <- ggwordcloud(words = d$word, freq = d$freq, min.freq = 111,
           colors=brewer.pal(8, "Dark2"))
 
 pic_file <- tempfile( fileext = ".png")
-ggsave(pic_file, plot = pic, device = "png", dpi = 144, width = 8, height = 8, units = "in" )
+ggsave(pic_file, plot = pic, device = "png", dpi = 144, width = 7.5, height = 7.5, units = "in" )
 
 
 # Publish to Twitter
