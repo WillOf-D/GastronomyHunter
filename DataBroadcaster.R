@@ -48,7 +48,6 @@ status_details <- paste0(
   "Hello, Hunters!", 
   "\n", 
   "\n",
-  "This is a tweet post for my assigment. ",
   "You will find in the embedded picture, the most frequent words that is mentioned recently with cakes, desserts, cookies, etc. ",
   "Hope you find some inspirations for your next baking adventure! ",
   "\n",
